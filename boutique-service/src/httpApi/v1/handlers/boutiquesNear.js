@@ -4,9 +4,9 @@ import sortedIndex from '../utils/sort.js';
 
 export default function boutiques({models}, req, res, next) {
     const Boutique = models.boutique;
-    const userLat = req.query.lat;
-    const userLon = req.query.lon;
-    var boutiquesCount = req.query.boutiquesCount || 5;
+    const userLat = req?.query?.lat;
+    const userLon = req?.query?.lon;
+    var boutiquesCount = req?.query?.boutiquesCount || 5;
 
     if(check.checkFloat(userLat)
         && check.checkFloat(userLon)
