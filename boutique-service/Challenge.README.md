@@ -5,9 +5,9 @@ In this file, I will explain every shortcut I took in the development of this ch
 
 There are 2 important points to mention regarding the newly added API Endpoint (both disclosed in the OpenAPI https://github.com/MPires97/product-technical-tests/blob/ft-mp-boutiques-nearby/boutique-service/src/httpApi/v1/routes.js#L40).
 
-The new endpoint is a GET endpoint, for this reason, the input that is passed onto it, is on the form of query parameters.
+- The new endpoint is a GET endpoint, for this reason, the input that is passed onto it, is on the form of query parameters.
 
-Even though it was requested that the API returned the 5 closest boutiques, I believed it would be interesting to allow the user to select this number. For this reason, the API supports an optional query parameter boutiquesCount.
+- Even though it was requested that the API returned the 5 closest boutiques, I believed it would be interesting to allow the user to select this number. For this reason, the API supports an optional query parameter boutiquesCount.
 
 
 ## Public code usage
